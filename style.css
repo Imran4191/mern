@@ -1,0 +1,95 @@
+.column {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+section.blog-posts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.blog-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  section.table-section {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 30px;
+}
+  .table {
+    display: block;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+} 
+  
+ .table thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: white;
+    background: darkcyan;
+}
+  
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+  
+ table th {
+    padding: 16px;
+    text-align: inherit;
+    border-bottom: 1px solid black;
+    color:white;
+    text-align: center;
+}
+  
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    text-align: center;
+}
+  
+ table:not(.tr-caption-container) {
+    min-width: 100%;
+    border-radius: 3px;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background: #ccc;
+}
